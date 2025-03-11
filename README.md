@@ -1,1 +1,2 @@
 # Cost-Estimation
+Developed a web-based platform that enables users to upload server configuration files to an Amazon S3 bucket. This upload triggers an AWS Lambda function, which automates the cost estimation process for the servers based on the provided configurations. Once the cost calculations are complete, the Lambda function stores the pricing file in the same S3 bucket. Users can then seamlessly download the generated pricing file directly from the website. 
